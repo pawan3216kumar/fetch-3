@@ -1,0 +1,57 @@
+body{
+  background-color: rgb(1, 19, 19);
+}
+
+h1{
+  text-align: center;
+  color: white;
+
+}
+
+.navbar{
+  height: 70px;
+  width: 100%;
+  background-color: royalblue;
+  color: white;
+  text-align: center;
+ font-size: 40px;
+ padding-top: 10px;
+}
+
+input{
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+button{
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+#container{
+  display: grid;
+  gap: 20px 50px;
+  grid-template-columns: repeat(4 , 1fr);
+  color: white;
+  margin: auto;
+  padding-top: 10px;
+   
+}
+
+#container>div{
+  height: 550px;
+  width: 300px;
+  border: 2px solid red;
+  font-family: sans-serif;
+  text-align: center;
+
+
+  
+
+}
+
+
+
+
+
+
